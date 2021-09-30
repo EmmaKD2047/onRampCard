@@ -1,0 +1,44 @@
+
+h1{
+    font-family: Big Shoulders Display, sans-serif;
+    color: white;
+}
+
+.parent-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px
+}
+
+button{
+    display: block;
+    margin: 30px 0px 20px 0px;
+    background-color: white;
+    border-radius: 30px; 
+    width: 200px; 
+    padding: 20px;
+    border: cornsilk;
+}
+
+.yellow-container{
+    padding: 50px;
+    background-color: hsl(31,77%,52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.blue-container{
+    padding: 50px;
+    background-color: hsl(184,100%,22%);
+}
+
+.green-container{
+    padding: 50px;
+    background-color: hsl(179,100%,13%);
+    border-radius: 0 5px 5px 0;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    justify-content: center;
+    margin-top: 70px;
+}
